@@ -278,10 +278,10 @@ class NestaNet(torch.nn.Module):
 
 
 model_paths = {
-    "tiny": "./model/{}/tiny_{}_best.pkl",
-    "base": "./model/{}/base_{}_best.pkl",
-    "xbase": "./model/{}/xbase_{}_best.pkl",
-    "large": "./model/{}/large_{}_best.pkl",
+    "tiny": "./saved_models/{}/tiny_{}_best.pkl",
+    "base": "./saved_models/{}/base_{}_best.pkl",
+    "xbase": "./saved_models/{}/xbase_{}_best.pkl",
+    "large": "./saved_models/{}/large_{}_best.pkl",
 }
 
 
