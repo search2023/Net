@@ -4,7 +4,7 @@
 python train.py --model="base" --cs_ratio=10 --batch_size=8 --blr=1e-4 --min_lr=1e-6 --epochs=200 --warmup_epochs=20 
 
 
-Model is saved in the model folder, log is saved in the logs folder.
+Model is saved in the saved_models folder, log is saved in the logs folder.
 
 ## Test
 
