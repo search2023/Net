@@ -4,7 +4,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Test Model')
 parser.add_argument('--gpu', default='0', type=str, help='gpu to test')
 parser.add_argument('--block_size', default=33, type=int, help='block size')
-parser.add_argument('--cs_ratio', default=1, type=int, help='cs ratio')
+parser.add_argument('--cs_ratio', default=10, type=int, help='cs ratio')
 parser.add_argument('--model', default="base", type=str, help='name of model')
 parser.add_argument('--test_dataset', default="Set11", type=str, help='name of test dataset')
 parser.add_argument('--is_cuda', default=True, type=bool, help='use cuda or not')
