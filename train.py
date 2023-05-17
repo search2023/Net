@@ -82,7 +82,7 @@ def main():
 
     best_epoch, psnr_max = 0, -1
     trainwriter, evalwriter = utils.load_logging("{}_{}".format(model_name, cs_ratio))
-    save_path = os.path.join('.', 'model', str(cs_ratio))
+    save_path = os.path.join('.', 'saved_models', str(cs_ratio))
     save_name = model_name+'_{}_best.pkl'.format(cs_ratio)
     for epoch in range(num_epochs):
         sch_lr.step(epoch)
